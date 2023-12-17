@@ -1,0 +1,22 @@
+
+crear entorno virtual                            python3 -m virtualenv venv 
+
+para correr el activate del entorno virtual      source env/bin/activate
+
+Instalar django                                  pip install django
+
+para crear el proyecto                           django-admin startproject {nameProyect} .
+
+para crear la app                                django-admin startapp {NameApp}
+
+migrar el servicio  (crea la base de datos)      python3 manage.py migrate
+
+se crea la migracion para ese modelo             python3 manage.py makemigrations  y denuevo {python3 manage.py migrate} para que aplique la migracion a base de datos
+
+crear super usuario                              python3 manage.py createsuperuser
+
+correr el servicio                               python3 manage.py runserver
+
+este comando es para instalar django rest        pip install djangorestframework
+
+ESTE COMANDO PUEDE SERVIR, INSTALA O ACTUALIZA TODO pip install --upgrade setuptools
